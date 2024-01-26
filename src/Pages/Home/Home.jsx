@@ -22,7 +22,7 @@ const Home = () => {
             <div className="home_connect_button">
               <a
                 href="https://propout-dapp-ui.vercel.app/"
-                target="_blank"
+                
                 style={{
                   textDecoration: "none",
                   padding: "12px 20px",
