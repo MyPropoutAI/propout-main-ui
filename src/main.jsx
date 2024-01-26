@@ -5,7 +5,8 @@ import "./index.css";
 import { Provider } from "react-redux";
 import store from "./Redux/Store/store";
 
-import { createWeb3Modal, defaultWagmiConfig } from "@web3modal/wagmi/react";
+import { createWeb3Modal } from "@web3modal/wagmi/react";
+import { defaultWagmiConfig } from "@web3modal/wagmi";
 
 import { WagmiProvider } from "wagmi";
 import { fuse, fuseSparknet } from "wagmi/chains";
