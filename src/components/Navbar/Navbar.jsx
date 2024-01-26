@@ -35,7 +35,19 @@ const NavBar = () => {
           <img src={Logo} alt="logo" className="companyLogo" />
         </Navbar.Brand>
         <div className="navbar_connect">
-          <ConnectButton />
+          <a
+            href="https://propout-dapp-ui.vercel.app/"
+            target="_blank"
+            style={{
+              textDecoration: "none",
+              padding: "8px 20px",
+              background: "#47A1FF",
+              color: "white",
+              borderRadius: "50px",
+            }}
+          >
+            Launch App
+          </a>
         </div>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

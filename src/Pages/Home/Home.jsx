@@ -20,7 +20,19 @@ const Home = () => {
         <Container className="home-content">
           <Row>
             <div className="home_connect_button">
-              <ConnectButton />
+              <a
+                href="https://propout-dapp-ui.vercel.app/"
+                target="_blank"
+                style={{
+                  textDecoration: "none",
+                  padding: "12px 20px",
+                  background: "#47A1FF",
+                  color: "white",
+                  borderRadius: "50px",
+                }}
+              >
+                Launch App
+              </a>
             </div>
             <Col md={7} className="home-header">
               <h1 className="heading-name">
