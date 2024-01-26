@@ -43,8 +43,10 @@ const Home = () => {
               <img
                 src={HomePageBg}
                 alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "50rem" }}
+                className="img-fluid section_img"
+                style={{
+                  maxHeight: "55rem",
+                }}
               />
             </Col>
           </Row>
