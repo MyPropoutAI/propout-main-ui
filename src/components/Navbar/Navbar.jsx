@@ -37,7 +37,7 @@ const NavBar = () => {
         <div className="navbar_connect">
           <a
             href="https://propout-dapp-ui.vercel.app/"
-            target="_blank"
+            
             style={{
               textDecoration: "none",
               padding: "8px 20px",
