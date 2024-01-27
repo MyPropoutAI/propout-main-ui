@@ -131,11 +131,12 @@
   }
 
   .heading-name {
-    font-size: 1.2rem;
+    font-size: 2rem;
     line-height: 30px;
     padding-bottom: 10px;
     font-weight: 900;
     padding: 0 10px;
+    line-height: 1.5;
   }
 
   div.col-md-5 {

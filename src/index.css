@@ -1,6 +1,9 @@
-  /* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600&family=Roboto:wght@100;300;500;700&family=Rubik+Bubbles&family=Ubuntu:wght@300;400;500&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600&family=Roboto:wght@100;300;500;700&family=Rubik+Bubbles&family=Ubuntu:wght@300;400;500&display=swap'); */
 
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 html {
   font-size: 100%;
@@ -12,9 +15,9 @@ html {
   --sub-color-ash: #e2dde5;
   --gradiant-bg-color1: linear-gradient(to right, #964cc3, #320051);
   --gradiant-bg-color2: linear-gradient(to left, #964cc3, #320051);
-  --border: 1px solid #FFFFFF66;
+  --border: 1px solid #ffffff66;
   --color: #4f1175;
-  --button: linear-gradient(to right, #C064F8, #FF087F);
+  --button: linear-gradient(to right, #c064f8, #ff087f);
   --color1: rgb(231, 28, 28);
 }
 
@@ -36,4 +39,3 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-

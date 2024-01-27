@@ -11,7 +11,8 @@ import benefits from "../../assets/images/User-Benefits-Bg.png";
 import "./Home.Style.css";
 import BuiltForCard from "../../components/BuiltForCard/BuiltForCard";
 import ChatBot from "../../components/ChatBot/ChatBot";
-import ConnectButton from "../../components/Web3Button/ConnectButton";
+import { Link } from "react-router-dom";
+// import ConnectButton from "../../components/Web3Button/ConnectButton";
 
 const Home = () => {
   return (
@@ -20,9 +21,8 @@ const Home = () => {
         <Container className="home-content">
           <Row>
             <div className="home_connect_button">
-              <a
-                href="https://propout-dapp-ui.vercel.app/"
-                target="_blank"
+              <Link
+                to="/dApp"
                 style={{
                   textDecoration: "none",
                   padding: "12px 20px",
@@ -32,7 +32,7 @@ const Home = () => {
                 }}
               >
                 Launch App
-              </a>
+              </Link>
             </div>
             <Col md={7} className="home-header">
               <h1 className="heading-name">
