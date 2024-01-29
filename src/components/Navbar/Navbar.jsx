@@ -37,23 +37,20 @@ const NavBar = () => {
         <Navbar.Brand href="/" className="d-flex">
           <img src={Logo} alt="logo" className="companyLogo" />
         </Navbar.Brand>
-        {pathname !== "/dApp" && (
-          <div className="navbar_connect">
-            <Link
-              to="/dApp"
-              style={{
-                textDecoration: "none",
-                padding: "8px 20px",
-                background: "#47A1FF",
-                color: "white",
-                borderRadius: "50px",
-              }}
-            >
-              Launch App
-            </Link>
-          </div>
-        )}
-
+        <div className="navbar_connect">
+          <Link
+            to="/dApp"
+            style={{
+              textDecoration: "none",
+              padding: "8px 20px",
+              background: "#47A1FF",
+              color: "white",
+              borderRadius: "50px",
+            }}
+          >
+            Launch App
+          </Link>
+        </div>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
