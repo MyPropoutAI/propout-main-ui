@@ -23,6 +23,7 @@ const NavBar = () => {
   const loaction = useLocation();
 
   const { pathname } = location;
+  console.log(pathname);
 
   window.addEventListener("scroll", scrollHandler);
 
@@ -37,20 +38,22 @@ const NavBar = () => {
         <Navbar.Brand href="/" className="d-flex">
           <img src={Logo} alt="logo" className="companyLogo" />
         </Navbar.Brand>
-        <div className="navbar_connect">
-          <Link
-            to="/dApp"
-            style={{
-              textDecoration: "none",
-              padding: "8px 20px",
-              background: "#47A1FF",
-              color: "white",
-              borderRadius: "50px",
-            }}
-          >
-            Launch App
-          </Link>
-        </div>
+        {pathname !== "/dApp" && (
+          <div className="navbar_connect">
+            <Link
+              to="/dApp"
+              style={{
+                textDecoration: "none",
+                padding: "8px 20px",
+                background: "#47A1FF",
+                color: "white",
+                borderRadius: "50px",
+              }}
+            >
+              Launch App
+            </Link>
+          </div>
+        )}
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {

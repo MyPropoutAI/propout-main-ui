@@ -10,8 +10,8 @@ const Buttons = () => {
   const rightButtons = buttons.slice(2);
 
   return (
-    <div className="p-10 pb-14 flex justify-between border-b border-gray-500">
-      <div className=" flex gap-6">
+    <div className="p-5 md:p-10 pb-14 flex justify-between border-b border-gray-500">
+      <div className="flex gap-1">
         {leftButtons.map((button) => (
           <button
             key={button.name}
@@ -23,7 +23,7 @@ const Buttons = () => {
         ))}
       </div>
 
-      <div className=" flex gap-6 ">
+      <div className=" flex gap-1 ">
         {rightButtons.map((button) => (
           <button
             key={button.name}
